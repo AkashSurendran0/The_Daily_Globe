@@ -1,20 +1,4 @@
 
-.error_page {
-  width: 100vw;
-  height: 100vh;
-  margin: 0 auto;
-  padding: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: black;
-}
-
-.error_msg {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
 .news_app {
   min-height: 100vh;
   background-color: #0f0f0f;
