@@ -4,7 +4,7 @@ import Link from "next/link";
 export default async function Home({searchParams}) {
   const country=searchParams.country || "global";
   console.log(country)
-  const res = await fetch(`https://the-daily-globe.vercel.app/getNews/${country}`, {
+  const res = await fetch(`/getNews/${country}`, {
     cache: "no-store",
   });
 
