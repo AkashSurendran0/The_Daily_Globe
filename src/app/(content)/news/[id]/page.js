@@ -4,7 +4,7 @@ import '../style.css'
 export default async function News({params}) {
     const id=(await params).id
     console.log(id)
-    const res=await fetch(`http://localhost:3000/getSingleNews/${id}`)
+    const res=await fetch(`https://the-daily-globe.vercel.app/getSingleNews/${id}`)
     const data=await res.json()
     const news=data.news
     
